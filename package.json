@@ -1,0 +1,21 @@
+{
+  "name": "knockout-jsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-env": "^2.4.1",
+    "babel-loader": "^7.0.0",
+    "nativejsx-loader": "^2.0.0",
+    "webpack": "^2.5.0"
+  },
+  "dependencies": {}
+}
