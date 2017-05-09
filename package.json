@@ -1,6 +1,6 @@
 {
   "name": "knockout-jsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use JSX with Knockout.",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -21,9 +21,9 @@
     "jsx"
   ],
   "files": [
-      "src",
-      "lib",
-      "dist"
+    "src",
+    "lib",
+    "dist"
   ],
   "author": "Alex Bainter <alex.bainter@spreetail.com> (https://github.com/metalex9)",
   "license": "MIT",
