@@ -17,8 +17,8 @@
     "preversion": "npm run lint && npm run test-once && npm run build-fresh"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Alex Bainter <alex.bainter@spreetail.com> (https://github.com/metalex9)",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-plugin-transform-object-assign": "^6.22.0",
