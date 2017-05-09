@@ -1,6 +1,6 @@
 {
   "name": "knockout-jsx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use JSX with Knockout.",
   "main": "lib/index.js",
   "module": "src/index.js",
