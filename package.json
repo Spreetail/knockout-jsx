@@ -42,5 +42,8 @@
   "dependencies": {},
   "peerDependencies": {
     "knockout": "^3.2.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
