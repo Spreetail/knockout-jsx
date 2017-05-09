@@ -9,14 +9,12 @@ function viewModel() {
     return vm;
 }
 
-function render() {
-    return (
-        <div>
-            <test />
-            <button type="button" data-bind="click: click">Update Counter</button>
-            <div data-bind="text: text"></div>
-        </div>
-    );
-}
+const jsxTemplate = (
+    <div>
+        <test />
+        <button type="button" data-bind="click: click">Update Counter</button>
+        <div data-bind="text: text" />
+    </div>
+);
 
-registerJSXComponent('hello-world', { render, viewModel });
+registerJSXComponent('hello-world', { jsxTemplate, viewModel });

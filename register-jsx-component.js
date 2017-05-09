@@ -1,14 +1,10 @@
-function registerJSXComponent(name, { viewModel, render }) {
-    let element;
-    if (typeof render !== 'function') {
-        element = render();
-        if (element.outerHTML === 'undefined') {
-            throw new TypeError('render() must return a DOM node with an outerHTML property.');
-        }
-    } else {
-        throw new TypeError('render must be a function returning a DOM node.');
+function registerJSXComponent(name, { viewModel, jsxTemplate }) {
+    if (typeof jsxTemplate === 'undefined') {
+        throw new TypeError('jsxTemplate is not defined.');
+    } else if (typeof jsxTemplate.outerHTML !== 'string') {
+        throw new TypeError('jsxTemplate must have an outerHTML string property.');
     }
-    ko.components.register(name, { viewModel, template: element.outerHTML });
+    ko.components.register(name, { viewModel, template: jsxTemplate.outerHTML });
 }
 
 export default registerJSXComponent;

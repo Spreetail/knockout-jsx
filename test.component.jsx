@@ -6,12 +6,10 @@ function viewModel() {
     return vm;
 }
 
-function render() {
-    return (
-        <div>
-            <span data-bind="text: whatever">oeuoeu</span>
-        </div>
-    );
-}
+const jsxTemplate = (
+    <div>
+        <span data-bind="text: whatever">oeuoeu</span>
+    </div>
+);
 
-registerJSXComponent('test', { viewModel, render });
+registerJSXComponent('test', { viewModel, jsxTemplate });
