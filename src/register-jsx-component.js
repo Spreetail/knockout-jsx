@@ -1,5 +1,5 @@
 import ko from 'knockout';
-import getOuterHTML from 'utils/get-outer-html';
+import getOuterHTML from './utils/get-outer-html';
 
 function registerJSXComponent(name, { viewModel, jsxTemplate }) {
     if (typeof jsxTemplate === 'undefined') {
