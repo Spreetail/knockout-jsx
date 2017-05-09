@@ -82,7 +82,8 @@ Registers a given component with Knockout. This is just a wrapper for `ko.compon
 **Arguments**
  - [`name`] (_String_): The name of the component.
  This is the HTML element where a component will be rendered. For example, if a component with the `name` 'counter' is passed to this method, the component will be rendered wherever a `<counter></counter>` tag appears in the page markup.
+ The value of `name` must be all lowercase.
  - [`component`] (_Object_): The component object. This must have the following properties:
     - [`viewModel`] (_Function_): The view model definition for the component.
     - [`jsxTemplate`] (_Object_): The JSX template object to use for the component. A build tool must convert the JSX markup to DOM API methods prior to calling `registerJSXComponent`.
-    As such, this should actually be an 
+    As such, this should actually be an
