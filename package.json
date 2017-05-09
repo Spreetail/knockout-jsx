@@ -1,7 +1,7 @@
 {
   "name": "knockout-jsx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use JSX with Knockout.",
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "build-fresh": "npm run clean && npm run build",
     "preversion": "npm run lint && npm run test-once && npm run build-fresh"
   },
-  "keywords": [],
+  "keywords": ["knockout", "jsx"],
   "author": "Alex Bainter <alex.bainter@spreetail.com> (https://github.com/metalex9)",
   "license": "MIT",
   "devDependencies": {
