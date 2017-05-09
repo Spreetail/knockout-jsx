@@ -20,6 +20,11 @@
     "knockout",
     "jsx"
   ],
+  "files": [
+      "src",
+      "lib",
+      "dist"
+  ],
   "author": "Alex Bainter <alex.bainter@spreetail.com> (https://github.com/metalex9)",
   "license": "MIT",
   "devDependencies": {
