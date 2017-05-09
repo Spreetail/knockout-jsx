@@ -86,7 +86,7 @@ Registers a given component with Knockout. This is just a wrapper for `ko.compon
  - [`component`] (_Object_): The component object. This must have the following properties:
     - [`viewModel`] (_Function_): The view model definition for the component.
     - [`jsxTemplate`] (_Object_): The JSX template object to use for the component. A build tool must convert the JSX markup to DOM API methods prior to calling `registerJSXComponent`.
-    As such, this should actually be an
+    As such, this should actually be an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Element).
 
 ## Testing
 Run `npm run test` to start the [Karma](https://karma-runner.github.io/1.0/index.html)
