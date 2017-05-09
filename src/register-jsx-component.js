@@ -1,3 +1,5 @@
+import ko from 'knockout';
+
 function registerJSXComponent(name, { viewModel, jsxTemplate }) {
     if (typeof jsxTemplate === 'undefined') {
         throw new TypeError('jsxTemplate is not defined.');
